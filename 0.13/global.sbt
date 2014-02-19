@@ -8,3 +8,5 @@ ScalariformKeys.preferences := FormattingPreferences()
   .setPreference(DoubleIndentClassDeclaration, true)
   .setPreference(PreserveDanglingCloseParenthesis, true)
   .setPreference(PreserveSpaceBeforeArguments, true)
+
+net.virtualvoid.sbt.graph.Plugin.graphSettings
