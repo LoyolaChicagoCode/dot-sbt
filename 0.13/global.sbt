@@ -1,6 +1,8 @@
 import scalariform.formatter.preferences._
 
-scalariformSettings
+// Plugin is global but should be enabled on a per-project basis.
+//
+//scalariformSettings
 
 ScalariformKeys.preferences := FormattingPreferences()
   .setPreference(AlignSingleLineCaseStatements, true)
