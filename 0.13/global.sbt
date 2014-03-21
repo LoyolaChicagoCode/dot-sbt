@@ -12,3 +12,5 @@ ScalariformKeys.preferences := FormattingPreferences()
   .setPreference(PreserveSpaceBeforeArguments, true)
 
 net.virtualvoid.sbt.graph.Plugin.graphSettings
+
+net.virtualvoid.sbt.graph.Plugin.graphSettings
