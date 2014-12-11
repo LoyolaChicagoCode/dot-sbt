@@ -1,0 +1,8 @@
+# generated files
+boot/
+project/
+target/
+
+# Emacs files
+*~
+\#*\#
