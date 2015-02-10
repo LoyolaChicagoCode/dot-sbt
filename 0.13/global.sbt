@@ -1,8 +1,12 @@
 import scalariform.formatter.preferences._
 
-// Plugin is global but should be enabled on a per-project basis.
-//
-//scalariformSettings
+// This enables manual formatting:
+
+defaultScalariformSettings
+
+// To enable automatic formatting, include 
+//   scalariformSettings
+// in your project-specific build file.
 
 ScalariformKeys.preferences := FormattingPreferences()
   .setPreference(AlignSingleLineCaseStatements, true)
