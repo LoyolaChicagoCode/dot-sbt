@@ -10,11 +10,9 @@ defaultScalariformSettings
 
 ScalariformKeys.preferences := FormattingPreferences()
   .setPreference(AlignSingleLineCaseStatements, true)
-  .setPreference(CompactControlReadability, true)
+  .setPreference(CompactControlReadability, false)
   .setPreference(DoubleIndentClassDeclaration, true)
   .setPreference(PreserveDanglingCloseParenthesis, true)
   .setPreference(PreserveSpaceBeforeArguments, true)
-
-net.virtualvoid.sbt.graph.Plugin.graphSettings
 
 net.virtualvoid.sbt.graph.Plugin.graphSettings
